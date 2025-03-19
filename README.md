@@ -34,13 +34,6 @@ A sleek and secure password generator built with **JavaScript** and **Tailwind C
 4. **Copy to clipboard** instantly.
 5. **Check password strength** with the visual indicator.
 
-## 📸 Preview
-![Password Strength Bar](https://media.discordapp.net/attachments/1178783364002615379/1352064706088796211/image.png?ex=67dca7e2&is=67db5662&hm=4da3e362142689b9ca00c7fa87361206536627daf34da34e61e87f765c04a794&=&format=webp&quality=lossless&width=1782&height=838)
-
-## 💡 Future Enhancements
-- Dark mode support 🌙
-- Option to exclude similar characters (e.g., `0` vs `O`, `1` vs `l`)
-- More customizable password settings
 
 ## 🤝 Contributing
 Pull requests are welcome! Feel free to submit improvements or report issues. 😊
