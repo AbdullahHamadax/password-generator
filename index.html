@@ -123,12 +123,15 @@
           </div>
         </div>
         <button
-          class="uppercase bg-[#10B981] hover:bg-[#10b981cc] rounded-md px-5 py-8 max-w-xl w-full text-[#18171F] flex items-center justify-center gap-3 mt-5 transition"
+          class="group uppercase bg-[#10B981] hover:bg-[#10b981cc] rounded-md px-5 py-8 max-w-xl w-full text-[#18171F] flex items-center justify-center gap-3 mt-5 transition"
           onclick="generateRandomPassword()"
         >
           <div class="flex items-center gap-3">
             <p class="text-2xl">generate</p>
-            <i data-lucide="arrow-right" class="size-5"></i>
+            <i
+              data-lucide="arrow-right"
+              class="transition-transform duration-300 ease-in-out size-5 group-hover:translate-x-2"
+            ></i>
           </div>
         </button>
       </div>
