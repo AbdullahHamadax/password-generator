@@ -149,7 +149,6 @@ function generateRandomPassword() {
 
   password.textContent = emptyString;
   displayPasswordStrength(strengthCounter, charLength);
-  console.log(charLength);
 }
 
 function copyToClipboard() {
