@@ -19,7 +19,7 @@
         height: 0.5rem;
         background: linear-gradient(
           to right,
-          #a5ffae var(--progress, 0%),
+          #10b981 var(--progress, 0%),
           #18171f var(--progress, 0%)
         );
         border-radius: 5px;
@@ -29,7 +29,7 @@
         -webkit-appearance: none;
         width: 2rem;
         height: 2rem;
-        background: #e6e5ea;
+        background: white;
         border-radius: 50%;
         cursor: pointer;
         margin-top: -0.7rem;
@@ -47,7 +47,7 @@
         class="bg-[#1F2937] flex justify-between p-5 items-center max-w-xl w-full rounded-md"
       >
         <p
-          class="text-[2rem] font-bold text-[#4ADF86]"
+          class="text-[1.2rem] sm:text-[2rem] font-bold text-[#4ADF86]"
           id="generated-password"
         ></p>
         <i
@@ -70,38 +70,38 @@
           value="5"
         />
         <div class="flex flex-col gap-5 mt-[3rem]">
-          <label class="flex items-center text-lg gap-7">
+          <label class="flex items-center gap-7">
             <input
               type="checkbox"
-              class="w-6 h-6 border rounded-sm cursor-pointer accent-[#10B981]"
+              class="max-w-6 w-full h-6 border rounded-sm cursor-pointer accent-[#10B981]"
               id="uppercase-checkbox"
             />
             <p class="text-[1.2rem]">Include Uppercase Letters</p>
           </label>
 
-          <label class="flex items-center text-lg gap-7">
+          <label class="flex items-center gap-7">
             <input
               type="checkbox"
               checked
-              class="w-6 h-6 border rounded-sm cursor-pointer accent-[#10B981]"
+              class="max-w-6 w-full h-6 border rounded-sm cursor-pointer accent-[#10B981]"
               id="lowercase-checkbox"
             />
             <p class="text-[1.2rem]">Include Lowercase Letters</p>
           </label>
 
-          <label class="flex items-center text-lg gap-7">
+          <label class="flex items-center gap-7">
             <input
               type="checkbox"
-              class="w-6 h-6 border rounded-sm cursor-pointer accent-[#10B981]"
+              class="max-w-6 w-full h-6 border rounded-sm cursor-pointer accent-[#10B981]"
               id="numbers-checkbox"
             />
             <p class="text-[1.2rem]">Include Numbers</p>
           </label>
 
-          <label class="flex items-center text-lg gap-7">
+          <label class="flex items-center gap-7">
             <input
               type="checkbox"
-              class="w-6 h-6 border rounded-sm cursor-pointer accent-[#10B981]"
+              class="max-w-6 w-full h-6 border rounded-sm cursor-pointer accent-[#10B981]"
               id="symbols-checkbox"
             />
             <p class="text-[1.2rem]">Include Symbols</p>
