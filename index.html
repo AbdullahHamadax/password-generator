@@ -37,30 +37,33 @@
     </style>
     <title>Password generator</title>
   </head>
-  <body class="bg-[#14131B] text-white p-5 font-medium flex flex-col">
+  <body class="bg-[#111827] text-white p-5 font-medium flex flex-col">
     <div class="flex flex-col items-center justify-center gap-5">
-      <h1 class="text-[#807D90] text-center mt-[4rem] text-2xl">
-        Password Generator
+      <h1 class="text-white text-center mt-[4rem] text-2xl">
+        <span class="text-[#4ADF86]">Password</span> Generator
       </h1>
 
       <div
-        class="bg-[#24232B] flex justify-between p-5 items-center max-w-xl w-full"
+        class="bg-[#1F2937] flex justify-between p-5 items-center max-w-xl w-full rounded-md"
       >
-        <p class="text-[2rem] font-bold" id="generated-password"></p>
+        <p
+          class="text-[2rem] font-bold text-[#4ADF86]"
+          id="generated-password"
+        ></p>
         <i
           data-lucide="files"
-          class="cursor-pointer hover:text-[#A5FFAE] transition"
+          class="cursor-pointer hover:text-[#10B981] transition"
           onclick="copyToClipboard()"
         ></i>
       </div>
-      <div class="bg-[#24232B] max-w-xl w-full p-5">
+      <div class="bg-[#1F2937] max-w-xl w-full p-5 rounded-md">
         <div class="flex items-center justify-between mb-5">
           <p class="text-xl">Character Length</p>
-          <p id="charLengthDisplay" class="text-[#A5FFAE] text-4xl">5</p>
+          <p id="charLengthDisplay" class="text-[#10B981] text-4xl">5</p>
         </div>
         <input
           id="charLengthSlider"
-          class="w-full accent-[#A5FFAE]"
+          class="w-full accent-[#10B981]"
           type="range"
           min="5"
           max="20"
@@ -70,7 +73,7 @@
           <label class="flex items-center text-lg gap-7">
             <input
               type="checkbox"
-              class="w-6 h-6 border rounded-sm cursor-pointer accent-[#A5FFAE]"
+              class="w-6 h-6 border rounded-sm cursor-pointer accent-[#10B981]"
               id="uppercase-checkbox"
             />
             <p class="text-[1.2rem]">Include Uppercase Letters</p>
@@ -80,7 +83,7 @@
             <input
               type="checkbox"
               checked
-              class="w-6 h-6 border rounded-sm cursor-pointer accent-[#A5FFAE]"
+              class="w-6 h-6 border rounded-sm cursor-pointer accent-[#10B981]"
               id="lowercase-checkbox"
             />
             <p class="text-[1.2rem]">Include Lowercase Letters</p>
@@ -89,7 +92,7 @@
           <label class="flex items-center text-lg gap-7">
             <input
               type="checkbox"
-              class="w-6 h-6 border rounded-sm cursor-pointer accent-[#A5FFAE]"
+              class="w-6 h-6 border rounded-sm cursor-pointer accent-[#10B981]"
               id="numbers-checkbox"
             />
             <p class="text-[1.2rem]">Include Numbers</p>
@@ -98,15 +101,17 @@
           <label class="flex items-center text-lg gap-7">
             <input
               type="checkbox"
-              class="w-6 h-6 border rounded-sm cursor-pointer accent-[#A5FFAE]"
+              class="w-6 h-6 border rounded-sm cursor-pointer accent-[#10B981]"
               id="symbols-checkbox"
             />
             <p class="text-[1.2rem]">Include Symbols</p>
           </label>
         </div>
 
-        <div class="bg-[#18171F] flex items-center justify-between p-5 mt-7">
-          <p class="text-xl uppercase text-[#807D90] sm:text-2xl">strength</p>
+        <div
+          class="bg-[#273549] flex items-center justify-between p-5 mt-7 rounded-md"
+        >
+          <p class="text-xl text-white uppercase sm:text-2xl">strength</p>
           <div class="flex gap-5">
             <p class="text-xl uppercase sm:text-2xl" id="password-strength"></p>
             <div class="hidden sm:flex sm:gap-2 sm:items-center">
@@ -118,7 +123,7 @@
           </div>
         </div>
         <button
-          class="uppercase bg-[#A5FFAE] hover:bg-[#6abc72] px-5 py-8 max-w-xl w-full text-[#18171F] flex items-center justify-center gap-3 mt-5 transition"
+          class="uppercase bg-[#10B981] hover:bg-[#10b981cc] rounded-md px-5 py-8 max-w-xl w-full text-[#18171F] flex items-center justify-center gap-3 mt-5 transition"
           onclick="generateRandomPassword()"
         >
           <div class="flex items-center gap-3">
