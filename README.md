@@ -2,7 +2,7 @@
 
 A sleek and secure password generator built with **JavaScript** and **Tailwind CSS**. Customize your password's length and character types, and get instant strength feedback! 💪
 
-![Screenshot](https://media.discordapp.net/attachments/1178783364002615379/1352064706088796211/image.png?ex=67dca7e2&is=67db5662&hm=4da3e362142689b9ca00c7fa87361206536627daf34da34e61e87f765c04a794&=&format=webp&quality=lossless&width=1782&height=838)
+
 
 ## 🚀 Features
 - Adjustable password length slider
